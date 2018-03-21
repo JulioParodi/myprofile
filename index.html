@@ -7,43 +7,9 @@
     <!-- tag HEAD responsavel por informacoes que a pagina ira carregar , informacoes q nao sao mostradas na pagina , como : tipo de caracteres, javascript, css -->
     <title> Meu Perfil </title>
     <meta charset="utf-8" />
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type =  "text/css" >
 
-      div {
-        border: 2px red solid;
-      }
-
-      body {
-        background: #7CC4D0;
-        margin: 0;
-      }
-      .changeflow {
-        float: left;
-        width:48%;
-        border: 2px blue solid;
-        margin: 5px;
-        padding: 0px;
-      }
-
-      .clear {
-        clear: both;
-      }
-
-      #meunome h2 {
-        text-align: center;
-        margin-top: 90px;
-      }
-
-      #menu {
-        background:gray;
-        text-align: right;
-        position: fixed;
-        width: 100%;
-        height: 50px;
-        top: 0;
-        margin-top: 5px;
-      }
 
     </style>
 
@@ -52,52 +18,42 @@
 
   <body >
     <!-- tag BORY tudo que o usuario final ira ver -->
-
     <div id="menu">
-      <h4 style="padding-right: 10px;line-height: 10px;" >| HOME | REDES SOCIAIS | CONTATO | </h4>
+      <h4 style="padding-right: 10px;" >| HOME | REDES SOCIAIS | CONTATO | </h4>
     </div>
 
-    <div id="meunome">
-      <h2 > Julio Cesar P. Parodi </h2>
+  <div id = "main-div">
+
+
+
+    <div class="branco" id="myname">
+       Julio Cesar P. Parodi
     </div>
 
-      <div class="changeflow">
+      <div  class="branco"  >
 
-          <img style="display:block; width:70%; height: 70%; margin: 10px auto" src="imagens/foto-julio.jpg" />
+          <img id="mypicture" src="img/foto-julio.jpg" />
 
       </div>
 
-      <div class="borda changeflow">
-        <ul>
+      <div  class="branco"  >
+        <ul id="attributes">
           <li>Universidade Federal do Paraná - UFPR</li> <br/>
           <li>Cursando Bacharelado em Ciência da Computção </li> <br/>
+          <li>Estágiario do LAMIND</li> <br/>
         </ul>
 
       </div>
 
 
-    <div class="clear">
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum eget mi in euismod. Aliquam feugiat urna non massa hendrerit imperdiet. Etiam feugiat et metus sed convallis. Sed efficitur nibh eros, quis venenatis nisi fermentum quis. Fusce in sem consequat, porta metus vel, pellentesque nunc. Donec laoreet mollis posuere. Aliquam accumsan rhoncus mi, eget consectetur purus pellentesque eu.</p>
-<br/>
-<br/>
-<br/>
-<p>Phasellus scelerisque massa sagittis, lobortis risus eget, iaculis dui. Morbi blandit ex quam. Fusce malesuada ipsum tellus, ut iaculis orci sagittis eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ornare nisi felis. Morbi gravida ultricies vehicula. Phasellus rutrum eros arcu, eget venenatis augue placerat vel. Integer pulvinar elementum tortor, quis ornare metus hendrerit ac. Nullam hendrerit nisl felis, in malesuada magna consectetur vel. Integer ac velit at massa rutrum tincidunt. Donec a mi enim. Vivamus eleifend sem a ex sodales, ut vulputate justo volutpat.</p>
-<br/>
-<br/>
-<br/>
-<p>Curabitur suscipit orci ante, accumsan pharetra turpis dictum dictum. Morbi sed mollis erat. Integer quis urna ipsum. Vestibulum sed turpis quis orci scelerisque hendrerit. Curabitur imperdiet sed risus a pulvinar. Vestibulum et turpis massa. Cras euismod molestie tortor at malesuada. Quisque luctus convallis nulla eu lobortis. Sed arcu tortor, lacinia non suscipit non, malesuada nec orci.  </p>
-<br/>
-<br/>
-<br/>
-<p>Phasellus scelerisque massa sagittis, lobortis risus eget, iaculis dui. Morbi blandit ex quam. Fusce malesuada ipsum tellus, ut iaculis orci sagittis eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque ornare nisi felis. Morbi gravida ultricies vehicula. Phasellus rutrum eros arcu, eget venenatis augue placerat vel. Integer pulvinar elementum tortor, quis ornare metus hendrerit ac. Nullam hendrerit nisl felis, in malesuada magna consectetur vel. Integer ac velit at massa rutrum tincidunt. Donec a mi enim. Vivamus eleifend sem a ex sodales, ut vulputate justo volutpat.</p>
+    <div  class="clear branco ">
+      Objetivos<br/>
+      Metas <br/>
+      Conhecimentos <br/>
 
     </div>
 
-    <div>
-      <ul>
-        <li> <a href="https://www.facebook.com/julio.pepplow?ref=bookmarks"> Redes Sociais do Julião </a> </li>
-      </ul>
-    </div>
+  </div >
 
   </body>
 
