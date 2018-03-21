@@ -11,10 +11,9 @@ body {
 }
 .changeflow {
   float: left;
-  width:48%;
-  border: 2px blue solid;
-  margin: 5px;
+  width:45%;
   padding: 0px;
+
 }
 
 .clear {
@@ -22,7 +21,7 @@ body {
 }
 
 #main-div {
-  margin: 10px 100px ;
+  margin: 10px 80px ;
   background-color: #58ACFA;
 }
 
@@ -50,9 +49,8 @@ body {
 #attributes {
   background: #fff;
   display: block;
-  margin: 10px auto;
   padding-top: 10px;
-  width: 30%;
+  width: 70%;
   height: 45%;
   text-align: center;
   border-style: inset;
@@ -61,8 +59,13 @@ body {
 
 }
 
+#logo-ufpr{
+  display:block;
+  margin: 15px auto;
+}
+
 #menu {
-  background:#0039e6;
+  background:#000;
   text-align: right;
   position: fixed;
   width: 100%;
@@ -71,11 +74,14 @@ body {
   line-height: 0;
   margin-top: 5px;
   color: #fff;
+  border-radius: 100px;
+
 }
 div.branco {
   background: #fff;
   margin-top: 10px;
   border: 1px solid black;
+  border-radius: 10px;
 }
 
 a:link {
