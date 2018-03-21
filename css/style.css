@@ -22,12 +22,13 @@ body {
 }
 
 #main-div {
-  margin: 10px 80px ;
+  margin: 10px 100px ;
   background-color: #58ACFA;
 }
 
 #myname {
   text-align: center;
+  padding: 5px;
   margin-top: 90px;
   margin-bottom: 10px;
   font-size: 35px;
