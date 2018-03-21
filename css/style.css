@@ -29,7 +29,7 @@ body {
 #myname {
   text-align: center;
   padding: 5px;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-bottom: 10px;
   font-size: 35px;
   font-family:Courier New;
@@ -76,4 +76,22 @@ div.branco {
   background: #fff;
   margin-top: 10px;
   border: 1px solid black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:active{
+  color: black;
+  text-decoration: underline;
+}
+a:hover{
+  color: black;
+  background-color: #BDBDBD;
+  text-decoration: underline;
+}
+a:visited {
+  color: black;
+
 }
