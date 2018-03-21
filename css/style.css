@@ -6,7 +6,7 @@ div {
 */
 
 body {
-  background: #58ACFA;
+  background: linear-gradient(blue,white);/*#58ACFA;*/
   margin: 0;
 }
 .changeflow {
@@ -22,7 +22,7 @@ body {
 
 #main-div {
   margin: 10px 80px ;
-  background-color: #58ACFA;
+  background-color: linear-gradient(to top,blue,white);
 }
 
 #myname {
@@ -62,10 +62,11 @@ body {
 #logo-ufpr{
   display:block;
   margin: 15px auto;
+  border-radius: 5px;
 }
 
 #menu {
-  background:#000;
+  background:#BDBDBD;
   text-align: right;
   position: fixed;
   width: 100%;
@@ -76,6 +77,13 @@ body {
   color: #fff;
   border-radius: 100px;
 
+}
+
+div.degrade{
+  background: linear-gradient(blue, white);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
 }
 div.branco {
   background: #fff;
