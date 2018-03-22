@@ -20,6 +20,17 @@ body {
   clear: both;
 }
 
+@keyframes movimenta-foto {
+  from {
+    background:black;
+    left: 0px;
+  }
+  to {
+    background: yellow;
+    left: 63% ;
+
+  }
+}
 #main-div {
   margin: 10px 80px ;
   background-color: linear-gradient(to top,blue,white);
@@ -27,6 +38,7 @@ body {
 
 #myname {
   text-align: center;
+  text-shadow: 5px 10px 4px gray;
   padding: 5px;
   margin-top: 70px;
   margin-bottom: 10px;
@@ -38,12 +50,24 @@ body {
 #mypicture {
   background: #fff;
   display:block;
-  width:35%;
-  height: 35%;
+  width:30%;
+  height: 30%;
+  /*
   margin: 10px auto;
+  */
+  border-radius: 300px;
   border-style: outset;
   border-color: #58ACFA;
   border-width: 15px;
+  box-shadow: 0px 0px 10px 15px black;
+
+  position: relative;
+  animation-name: movimenta-foto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
 }
 
 #attributes {
@@ -56,6 +80,8 @@ body {
   border-style: inset;
   border-width: 15px;
   border-color: #58ACFA;
+  box-shadow: 0px 0px 10px 15px black;
+
 
 }
 
@@ -63,10 +89,12 @@ body {
   display:block;
   margin: 15px auto;
   border-radius: 5px;
+  box-shadow: 0px 0px 10px 15px black;
+
 }
 
 #menu {
-  background:#BDBDBD;
+  background: rgba(200,200,200,0.7);
   text-align: right;
   position: fixed;
   width: 100%;
@@ -80,7 +108,7 @@ body {
 }
 
 div.degrade{
-  background: linear-gradient(blue, white);
+  background: white;
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
