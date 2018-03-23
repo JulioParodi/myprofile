@@ -105,7 +105,16 @@ body {
   color: #fff;
   border-radius: 100px;
 
+
 }
+
+#menu:hover{
+  height: 80px;
+  background: rgba(100,100,100,0.9);
+  transition: all 1s;
+  content: "testeesdada";
+}
+
 
 div.degrade{
   background: white;

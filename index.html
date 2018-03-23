@@ -8,7 +8,10 @@
     <title> Meu Perfil </title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
     <style type =  "text/css" >
 
     </style>
@@ -19,8 +22,11 @@
   <body >
     <!-- tag BORY tudo que o usuario final ira ver -->
     <div id="menu">
-      <h4 style="padding-right: 10px;" >| HOME | REDES SOCIAIS | CONTATO | </h4>
+      <h4 id="menuu" style="padding-right: 40px;" >| HOME | REDES SOCIAIS | <span> CONTATO <span> | </h4>
+      <h4 id="h4" style="display:none; padding-right: 40px;">EMAILDASLDIASLDI</h4>
     </div>
+
+
 
     <div id = "main-div">
 
@@ -77,7 +83,15 @@
     <br/>
     <br/>
     <br/>
-    
+
+
+
+    <script type="text/javascript">
+      $('#menuu').click(function() {
+        $('#h4').toggle();
+      });
+    </script>
+
   </body>
 
 </html>
