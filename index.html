@@ -22,8 +22,9 @@
   <body >
     <!-- tag BORY tudo que o usuario final ira ver -->
     <div id="menu">
-      <h4 id="menuu" style="padding-right: 40px;" >| HOME | REDES SOCIAIS | <span> CONTATO <span> | </h4>
-      <h4 id="h4" style="display:none; padding-right: 40px;">EMAILDASLDIASLDI</h4>
+      <h4 id="menuu" style="padding-right: 40px;" >| HOME | REDES SOCIAIS
+        | <span onmouseout="escondeContato()" onmouseover="mostraContato()"> CONTATO </span> | </h4>
+      <h4 id="h4" style="display:none; padding: 15px 15px 0 0;">JULIOPEPPLOW@GMAIL.COM - (41) 99999-9999</h4>
     </div>
 
 
@@ -87,9 +88,14 @@
 
 
     <script type="text/javascript">
-      $('#menuu').click(function() {
-        $('#h4').toggle();
-      });
+
+    function mostraContato () {
+        $('#h4').show(450);
+      }
+    function escondeContato () {
+        $('#h4').hide();
+      }
+
     </script>
 
   </body>
